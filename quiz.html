@@ -1,7 +1,8 @@
+<!DOCTYPE html><html lang="fa">
 <head>
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>امتحان هشت ارزش</title>
+<title>هشت ارزش - کوییز</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -41,7 +42,7 @@
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "سوال " + (qn + 1) + " از " + (questions.length);
         if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
@@ -90,3 +91,4 @@
     }
 </script>
 </body>
+</html>
